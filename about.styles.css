@@ -1,0 +1,53 @@
+div {
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    border: 5px solid brown;
+    /* padding: 20px 50px 20px 50px; */
+    /* margin: 10px 50px 50px 30px; */
+
+    /* padding: 10% 20% 5% 5%; */
+}
+
+/* psudo class */
+div:hover {
+    background-color: red;
+    transition: all 200ms ease-in;
+}
+
+div:active {
+    background-color: blue;
+    transition: all 200ms ease-in;
+}
+
+div::after {
+    content: "attr('div')";
+    color: red;
+}
+
+button {
+    background-color: pink;
+    margin: 5%;
+    padding: 1%;
+}
+
+button:active {
+    background-color: red;
+}
+
+a:link {
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: green;
+}
+
+button:disabled {
+    background-color: yellow;
+}
+
+body {
+    background-color: #F7F7F7;
+    height: 500px;
+}

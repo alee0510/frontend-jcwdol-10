@@ -1,0 +1,38 @@
+/* elementt selector */
+p {
+    color: red;
+}
+
+/* class selector */
+.header-3 {
+    color: black;
+}
+
+/* id selector */
+#header-6 {
+    color: red;
+    background-color: aqua;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+/* artibute selector */
+a[target="_blank"] {
+    color: green;
+}
+a[href] {
+    color: red;
+}
+
+/* universal selector */
+* {
+    color: blue;
+}
+
+body {
+    background-color: #F7F7F7;
+    background-image: url("https://www.w3schools.com/css/img_fjords.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
